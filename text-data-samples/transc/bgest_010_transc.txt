@@ -1,0 +1,109 @@
+Begin Time - msec	End Time - msec	Transcription	NTB	InfoStructure	
+1458	3627	hhh eu não vou conseguir lembrar //	hhh eu não vou conseguir lembrar	
+4424	4840	<mas> +	<mas> +	
+7953	8458	não / do juiz mesmo //	não	
+8458	9387	não / do juiz mesmo //	do juiz mesmo	
+10226	10830	&j [/1] então / a promotoria seria no / criminal //	&j [/1]	
+10830	11020	&j [/1] então / a promotoria seria no / criminal //	então	
+11020	12768	&j [/1] então / a promotoria seria no / criminal //	a promotoria seria no	
+12768	13241	&j [/1] então / a promotoria seria no / criminal //	criminal	
+14429	17388	que aí é um representante do Ministério Público que vai / apresentar a denúncia //	que aí é um representante do Ministério Público que vai	
+17388	18572	que aí é um representante do Ministério Público que vai / apresentar a denúncia //	apresentar a denúncia	
+18788	20001	eu ficava na área cível //	eu ficava na área cível	
+20541	21472	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //	que só tem	
+21472	22441	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //	briga de vizinho	
+22441	23454	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //	briga de família	
+23454	24029	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //		
+24029	24452	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //	&dev [/1]	
+24452	25541	que só tem / briga de vizinho / briga de família / &dev [/1] gente devendo dinheiro //	gente devendo dinheiro	
+26592	27475	ótimo //	ótimo	
+27475	28958	muito divertido quando tem audiência //	muito divertido quando tem audiência	
+30220	31803	inclusive são abertas / eu indico todo mundo a ir //	inclusive são abertas	
+31803	32638	inclusive são abertas / eu indico todo mundo a ir //	eu indico todo mundo a ir	
+37442	38741	de tudo o que você pode imaginar //	de tudo o que você pode imaginar	
+41834	42165	não //	não	
+42631	43912	a pior de que eu já vi / foi um cara que caiu +	a pior de que eu já vi	
+43912	44377	a pior de que eu já vi / foi um cara que caiu +		
+44377	45536	a pior de que eu já vi / foi um cara que caiu +	foi um cara que caiu +	
+46954	48939	hhh ele disse que caiu num esquema de pirâmide //	hhh ele disse que caiu num esquema de pirâmide	
+49380	49809	hum hum //	hum hum	
+50753	51870	ele ameaçou a mulher dele / claro que ele nũ caiu num esquema de pirâmide / ele sabia o que que ele tava fazendo //	ele ameaçou a mulher dele	
+51870	53888	ele ameaçou a mulher dele / claro que ele nũ caiu num esquema de pirâmide / ele sabia o que que ele tava fazendo //	claro que ele nũ caiu num esquema de pirâmide	
+53888	55141	ele ameaçou a mulher dele / claro que ele nũ caiu num esquema de pirâmide / ele sabia o que que ele tava fazendo //	ele sabia o que que ele tava fazendo	
+55558	56636	só que aí ele perdeu a casa / perdeu tudo //	só que aí ele perdeu a casa	
+56636	57286	só que aí ele perdeu a casa / perdeu tudo //	perdeu tudo	
+58082	60029	e a mulher assinou os papeis porque ele ameaçou ela //	e a mulher assinou os papeis porque ele ameaçou ela	
+60912	62003	e aí / ela começou o processo pra tentar recuperar a casa / aí ele se disse muito arrependido / porque já tinha sido condenado mesmo //	e aí	
+62003	62558	e aí / ela começou o processo pra tentar recuperar a casa / aí ele se disse muito arrependido / porque já tinha sido condenado mesmo //		
+62558	65598	e aí / ela começou o processo pra tentar recuperar a casa / aí ele se disse muito arrependido / porque já tinha sido condenado mesmo //	ela começou o processo pra tentar recuperar a casa	
+65598	67366	e aí / ela começou o processo pra tentar recuperar a casa / aí ele se disse muito arrependido / porque já tinha sido condenado mesmo //	aí ele se disse muito arrependido	
+67366	68833	e aí / ela começou o processo pra tentar recuperar a casa / aí ele se disse muito arrependido / porque já tinha sido condenado mesmo //	porque já tinha sido condenado mesmo	
+69689	72060	e aí ele disse que se ela não voltasse pra ele / que se ele fosse perder tudo mesmo / ele não tinha mais motivos pra viver / e ameaçou colocar fogo no próprio corpo //	e aí ele disse que se ela não voltasse pra ele	
+72060	73003	e aí ele disse que se ela não voltasse pra ele / que se ele fosse perder tudo mesmo / ele não tinha mais motivos pra viver / e ameaçou colocar fogo no próprio corpo //	que se ele fosse perder tudo mesmo	
+73003	74384	e aí ele disse que se ela não voltasse pra ele / que se ele fosse perder tudo mesmo / ele não tinha mais motivos pra viver / e ameaçou colocar fogo no próprio corpo //	ele não tinha mais motivos pra viver	
+74384	74979	e aí ele disse que se ela não voltasse pra ele / que se ele fosse perder tudo mesmo / ele não tinha mais motivos pra viver / e ameaçou colocar fogo no próprio corpo //		
+74979	76995	e aí ele disse que se ela não voltasse pra ele / que se ele fosse perder tudo mesmo / ele não tinha mais motivos pra viver / e ameaçou colocar fogo no próprio corpo //	e ameaçou colocar fogo no próprio corpo	
+80347	81434	aí ele saiu correndo [/4] isso eu ainda não trabalhava lá / era no Lafayete / lá no Barro Preto //	aí ele saiu correndo [/4]	
+81434	82665	aí ele saiu correndo [/4] isso eu ainda não trabalhava lá / era no Lafayete / lá no Barro Preto //	isso eu ainda não trabalhava lá	
+82665	83403	aí ele saiu correndo [/4] isso eu ainda não trabalhava lá / era no Lafayete / lá no Barro Preto //		
+83403	84702	aí ele saiu correndo [/4] isso eu ainda não trabalhava lá / era no Lafayete / lá no Barro Preto //	era no Lafayete	
+84702	85592	aí ele saiu correndo [/4] isso eu ainda não trabalhava lá / era no Lafayete / lá no Barro Preto //	lá no Barro Preto	
+85886	86831	aí ele saiu correndo / pegou / acho que álcool / jogou no próprio corpo e ficou ameaçando colocar fogo //	aí ele saiu correndo	
+86831	87433	aí ele saiu correndo / pegou / acho que álcool / jogou no próprio corpo e ficou ameaçando colocar fogo //	pegou	
+87433	88465	aí ele saiu correndo / pegou / acho que álcool / jogou no próprio corpo e ficou ameaçando colocar fogo //	acho que álcool	
+88465	90551	aí ele saiu correndo / pegou / acho que álcool / jogou no próprio corpo e ficou ameaçando colocar fogo //	jogou no próprio corpo e ficou ameaçando colocar fogo	
+90956	91208	&s[/1] os seguranças tiveram que / é / tirar ele de lá //	&s[/1]	
+91208	92554	&s[/1] os seguranças tiveram que / é / tirar ele de lá //	os seguranças tiveram que	
+92554	93922	&s[/1] os seguranças tiveram que / é / tirar ele de lá //		
+93922	94195	&s[/1] os seguranças tiveram que / é / tirar ele de lá //	é	
+94195	95393	&s[/1] os seguranças tiveram que / é / tirar ele de lá //	tirar ele de lá	
+95393	96886	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	e aí na segunda audiência eu já tava lá	
+96886	98109	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //		
+98109	99805	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	e aí na segunda audiência eu já tava lá	
+99805	100971	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	e aí meu chefe avisou que ele ia chegar	
+100971	101511	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	um monte de coisa	
+101511	102830	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	a audiência teve que ser de porta aberta	
+102830	103637	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	um monte de gente esperando	
+103637	104102	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //		
+104102	104669	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	porque	
+104669	105209	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //		
+105209	105824	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	o	
+105824	107052	e aí na segunda audiência eu já tava lá / e aí meu chefe avisou que ele ia chegar / a gente teve que chamar segurança / um monte de coisa / a audiência teve que ser de porta aberta / um monte de gente esperando / porque / o / piromaníaco tava chegando //	piromaníaco tava chegando	
+107909	110809	então hhh a gente já foi avisado uns dois dias antes / que a audiência dele ia acontecer / pra todo mundo ficar preparado //	então hhh a gente já foi avisado uns dois dias antes	
+110809	111985	então hhh a gente já foi avisado uns dois dias antes / que a audiência dele ia acontecer / pra todo mundo ficar preparado //	que a audiência dele ia acontecer	
+111985	112539	então hhh a gente já foi avisado uns dois dias antes / que a audiência dele ia acontecer / pra todo mundo ficar preparado //		
+112539	113640	então hhh a gente já foi avisado uns dois dias antes / que a audiência dele ia acontecer / pra todo mundo ficar preparado //	pra todo mundo ficar preparado	
+116304	117339	já teve briga de / pai com filho //	já teve briga de	
+117339	118228	já teve briga de / pai com filho //	pai com filho	
+118228	118743	muito bom //	muito bom	
+119086	119834	muito bom //	muito bom	
+122946	123706	não //	não	
+123978	124615	porque +	porque +	
+124615	125755	a gente nũ mexe com herança //	a gente nũ mexe com herança	
+125755	126601	herança tem um [/1] coisa própria //	herança tem um [/1]	
+126601	127463	herança tem um [/1] coisa própria //		
+127463	128133	herança tem um [/1] coisa própria //	coisa própria	
+128133	130841	eu falo a gente nũ mexe porque eu ainda não consegui desapegar //	eu falo a gente nũ mexe porque eu ainda não consegui desapegar	
+131221	131445	tá / já tem mais de seis meses que eu não trabalho lá / e eu ainda não desapeguei //	tá	
+131445	133263	tá / já tem mais de seis meses que eu não trabalho lá / e eu ainda não desapeguei //	já tem mais de seis meses que eu não trabalho lá	
+133263	134439	tá / já tem mais de seis meses que eu não trabalho lá / e eu ainda não desapeguei //	e eu ainda não desapeguei	
+135934	137268	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	mas	
+137268	138033	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	&he	
+138033	138437	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	era assim	
+138437	139736	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //		
+139736	141609	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	pai e filho que moram no mesmo terreno	
+141609	141889	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //		
+141889	142771	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	e aí	
+142771	144859	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	os filhos começam a brigar	
+144859	145652	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	e aí eles falam	
+145652	146076	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //		
+146076	146937	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	sai do meu terreno	
+146937	148112	mas / &he / era assim / pai e filho que moram no mesmo terreno / e aí / os filhos começam a brigar / e aí eles falam / sai do meu terreno / e o cara nũ quer sair //	e o cara nũ quer sair	
+149929	150547	e aí / começa a dar briga //	e aí	
+150547	152122	e aí / começa a dar briga //	começa a dar briga	
+152637	153743	e aí decide tudo / no Judiciário //	e aí decide tudo	
+153743	154978	e aí decide tudo / no Judiciário //	no Judiciário	
+154978	157074	porque o Judiciário tá aí pra isso //	porque o Judiciário tá aí pra isso	
+157981	160283	vizinho que constrói muro indevido / e aí a gente manda / destruir o muro //	vizinho que constrói muro indevido	
+160283	161466	vizinho que constrói muro indevido / e aí a gente manda / destruir o muro //	e aí a gente manda	
+161466	163152	vizinho que constrói muro indevido / e aí a gente manda / destruir o muro //	destruir o muro	

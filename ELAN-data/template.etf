@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-08-24T16:46:05-03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
+    <TIME_ORDER/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="PEU" TIER_ID="GE-Units"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="timeSub" PARENT_REF="GE-Units" PARTICIPANT="PEU" TIER_ID="GE-Phrase"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Phase" PARENT_REF="GE-Phrase" PARTICIPANT="PEU" TIER_ID="GE-Phase"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Position" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="right - GE-Position"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Hand" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="right - GE-Hand-shape"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="PEU" TIER_ID="Transcription"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Orientation" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="right - GE-Orientation"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Movement" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="right - GE-Movement"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Position" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="left - GE-Position"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Orientation" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="left - GE-Orientation"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Movement" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="left - GE-Movement"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="GE-Hand" PARENT_REF="GE-Phase" PARTICIPANT="PEU" TIER_ID="left - GE-Hand-shape"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Extra"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="timeSub" PARENT_REF="Transcription" PARTICIPANT="PEU" TIER_ID="NTB"/>
+    <TIER ANNOTATOR="Camila" LINGUISTIC_TYPE_REF="InfoStructure" PARENT_REF="NTB" PARTICIPANT="PEU" TIER_ID="InfoStructure"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="timeSub" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision" CONTROLLED_VOCABULARY_REF="GE-Phase" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="GE-Phase" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="GE-Position" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="GE-Position" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="GE-Hand-shape" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="GE-Hand" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="GE-Orientation" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="GE-Orientation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="GE-Movement" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="GE-Movement" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="split-type" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="InformationUnits" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="InfoStructure" TIME_ALIGNABLE="false"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="GE-Movement">
+        <DESCRIPTION LANG_REF="und">Based on types of movement from McNeill (1992), Cantalini (2018) and Ladewig, Müller and Bressem (2014)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_beb9f0b7-f219-49c3-a7c5-cc79e34b897e">
+            <CVE_VALUE LANG_REF="und">straight</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_234b4b27-4948-4203-9646-a8da37d450f6">
+            <CVE_VALUE LANG_REF="und">arced</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_44764be3-48ef-4849-9d91-3ed47de2a22f">
+            <CVE_VALUE LANG_REF="und">circle</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_2bc4d47c-b4b1-4ba4-a973-ea3f1f7d92ff">
+            <CVE_VALUE LANG_REF="und">spiral</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_cb16f813-c8ad-410b-a55a-e8465237c3c5">
+            <CVE_VALUE LANG_REF="und">zigzag</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_00dafd4c-5652-463f-8898-ddcdfea38d25">
+            <CVE_VALUE LANG_REF="und">s-line</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_81336231-2635-4122-9204-d5ca84f096e6">
+            <CVE_VALUE LANG_REF="und">hold</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="GE-Hand-shape">
+        <DESCRIPTION LANG_REF="und">Based on hand-shapes from McNeill (1992), Cantalini (2018) and Ladewig, Müller and Bressem (2014)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_b0734a91-f8d5-4318-a7ab-2abc14a61b05">
+            <CVE_VALUE LANG_REF="und">fist</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d9def958-5db5-4ad3-92b6-a19c296e0799">
+            <CVE_VALUE LANG_REF="und">flat-hand</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8a390be0-89ee-4b09-b4b4-20813dc51e69">
+            <CVE_VALUE LANG_REF="und">single-fingers</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_ae4a3426-4cbd-4957-9f65-47b9d8b4bd38">
+            <CVE_VALUE LANG_REF="und">combination of fingers</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="GE-Position">
+        <DESCRIPTION LANG_REF="und">Based on positions from McNeill (1992), Cantalini (2018) and Ladewig, Müller and Bressem (2014)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_1b48adbf-5692-46dc-809b-695938864c53">
+            <CVE_VALUE LANG_REF="und">center-center</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_3798e0fd-0d8e-41d6-bb45-dca3221a4889">
+            <CVE_VALUE LANG_REF="und">center</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e3dd000b-777d-4d3c-ac75-c6e5c9113506">
+            <CVE_VALUE LANG_REF="und">periphery</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a84d649e-05e6-4ca1-aec9-24a2ca1fb725">
+            <CVE_VALUE LANG_REF="und">extreme-periphery</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="InformationUnits">
+        <DESCRIPTION LANG_REF="und">Based on Moneglia &amp; Raso, 2014</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_8cec7ced-b54c-45c8-9df5-3b7fef8efd93">
+            <CVE_VALUE LANG_REF="und">COM</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c89a29da-a575-468f-8633-3b9fa059ee44">
+            <CVE_VALUE LANG_REF="und">TOP</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_bcae7926-f4bb-4114-afed-19fe28d810ae">
+            <CVE_VALUE LANG_REF="und">APC</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e05d997a-7b1b-4bf1-987d-9af6544d8aa2">
+            <CVE_VALUE LANG_REF="und">APT</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4bab0be9-46a3-43b0-b534-9129f9b2b5ee">
+            <CVE_VALUE LANG_REF="und">PAR</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a67a83b1-f1ef-47e0-8134-e08f395dce52">
+            <CVE_VALUE LANG_REF="und">INT</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_94203d4d-10b7-42f5-ae03-7d35fa2e640f">
+            <CVE_VALUE LANG_REF="und">CMM</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_6375d333-96fb-44e6-b3e7-b09a0aee3047">
+            <CVE_VALUE LANG_REF="und">COB</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a4afdbe2-14c8-47c5-86bc-ace7a135b002">
+            <CVE_VALUE LANG_REF="und">INP</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_3af2ea9a-5698-4553-a8a0-2057c63ca1c3">
+            <CVE_VALUE LANG_REF="und">CNT</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_12000d7d-1516-44ad-bd57-43e166b94a7e">
+            <CVE_VALUE LANG_REF="und">PHA</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_61e6c880-9a20-4906-bf66-1b21e72843f4">
+            <CVE_VALUE DESCRIPTION="EXP" LANG_REF="und">ALL</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_90b1523f-c612-4791-87e7-bf0c9bee53d9">
+            <CVE_VALUE LANG_REF="und">DCT</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_6c104f49-285d-4948-bff1-9ea0bda4f8d0">
+            <CVE_VALUE LANG_REF="und">TPL</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1d934acd-d02f-4d56-8857-e72fa6649251">
+            <CVE_VALUE LANG_REF="und">PRL</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_828e8271-feb9-4d16-9033-50eba6be2d92">
+            <CVE_VALUE LANG_REF="und">SCA</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_78a5141b-33a3-42fe-aee8-9af6fe964f33">
+            <CVE_VALUE LANG_REF="und">i-[TAG]</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b3f31f6b-0292-49d5-85c7-4936d492741d">
+            <CVE_VALUE DESCRIPTION="TMT" LANG_REF="und">EMP</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_35f65fd6-f899-4a25-8d65-b7d360d63f15">
+            <CVE_VALUE LANG_REF="und">TMT</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c2945051-5917-4a58-aead-42f15cec2de2">
+            <CVE_VALUE LANG_REF="und">AUX</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="GE-Orientation">
+        <DESCRIPTION LANG_REF="und">Based on phases from McNeill (1992), Cantalini (2018) and Ladewig, Müller and Bressem (2014)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_cbe1d942-14e8-4822-a3d7-47a120bc659e">
+            <CVE_VALUE LANG_REF="und">towards center</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b3f8b0e5-5d53-4690-833e-dc6f4365bb33">
+            <CVE_VALUE LANG_REF="und">away center</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a83f7791-bbef-4040-b485-e206202a12f8">
+            <CVE_VALUE LANG_REF="und">towards body</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f623d749-30dc-4b96-b3c0-82c4b0106495">
+            <CVE_VALUE LANG_REF="und">away body</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="GE-Phase">
+        <DESCRIPTION LANG_REF="und">Based on phases from McNeill (1992) and Cantalini (2018)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_876a5a09-ea02-4d42-a1fe-a77403374ba8">
+            <CVE_VALUE LANG_REF="und">preparation</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f1dda255-e6e9-4733-bfbe-8e5fa82f5937">
+            <CVE_VALUE LANG_REF="und">retraction</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7333ed54-ff3a-4619-b750-dd3950c30ce9">
+            <CVE_VALUE LANG_REF="und">stroke</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8d14513a-a23b-4f51-a876-8e14caadd84f">
+            <CVE_VALUE LANG_REF="und">hold</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>

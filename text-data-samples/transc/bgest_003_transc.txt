@@ -1,0 +1,132 @@
+Begin Time - msec	End Time - msec	Transcription	NTB	InfoStructure	
+0	910	disciplina de &graduaç +	disciplina de &graduaç +	EMP
+15010	15962	é muito difícil //	é muito difícil	COM
+17352	17700	<é> //	<é> //	COM
+23792	24514	<sim> //	<sim> //	COM
+25483	27131	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	é cara	AUX
+27131	30030	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	é tipo é uma coisa muito [/6]	EMP
+30030	32091	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	eu nũ sei qual que foi exatamente a aula que cê pegou	COB
+32091	33130	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	dela	APC
+33130	34272	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	mas é uma coisa assim	INT
+34272	35866	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	cê vai tentando construir	SCA
+35866	36357	é cara / é tipo é uma coisa muito [/6] eu nũ sei qual que foi exatamente a aula que cê pegou / dela / mas é uma coisa assim / cê vai tentando construir / coisas //	coisas	COM
+36357	37008	e o que eu que eu +	e o que eu que eu +	EMP
+37358	37910	por exemplo / &he / eu dou o IFA um //	por exemplo	INT
+37910	38179	por exemplo / &he / eu dou o IFA um //	&he	TMT
+38179	39303	por exemplo / &he / eu dou o IFA um //	eu dou o IFA um	COM
+39303	40630	então que que eu faço no IFA um / geralmente //	então que que eu faço no IFA um	SCA
+40630	41226	então que que eu faço no IFA um / geralmente //	geralmente	COM
+41963	42676	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	eu vou [/2]	EMP
+42676	43264	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	&he	TMT
+43264	44405	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	eu vou explicando	SCA
+44405	45843	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	o que é esperado deles	COB
+45843	46185	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	por exemplo	PAR
+46185	48237	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	se eles vão produzir um statement of purpose	PAR
+48237	48982	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	que é o [/1]	SCA
+48982	50259	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	a escrita dele	PAR
+50259	51271	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	o que que é esperado	CMM
+51271	52642	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	quais são as fases disso	CMM
+52642	52868	eu vou [/2] &he / eu vou explicando / o que é esperado deles / por exemplo / se eles vão produzir um statement of purpose / que é o [/1] a escrita dele / o que que é esperado / quais são as fases disso / né //	né	AUX
+53375	53795	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	e aí	AUX
+53795	53942	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	&q [/1]	EMP
+53942	54947	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	qual tipos de línguas	COB
+54947	55821	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	vamos ler aqui o'	COB
+55821	56890	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	vamos ver essas frases	COB
+56890	58110	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	que que cês acharam dessas frases	COB
+58110	59074	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	vamo tentar	SCA
+59074	59981	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	discutir elas	COB
+59981	61771	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	como são as construções	COB
+61771	63790	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	tentar ver se eles tão conseguindo pegar o sentido	SCA
+63790	64155	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	e tal	APC
+64155	64831	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	<então>	AUX
+64831	66124	e aí / &q [/1] qual tipos de línguas / vamos ler aqui o' / vamos ver essas frases / que que cês acharam dessas frases / vamo tentar / discutir elas / como são as construções / tentar ver se eles tão conseguindo pegar o sentido / e tal / <então> / é um passo a passo //	é um passo a passo	COM
+66498	66888	tipo / porque não é uma coisa direta assim / &va [/1] escreva assim //	tipo	INT
+66888	68043	tipo / porque não é uma coisa direta assim / &va [/1] escreva assim //	porque não é uma coisa direta assim	EMP
+68043	68208	tipo / porque não é uma coisa direta assim / &va [/1] escreva assim //	&va [/1]	EMP
+68208	69184	tipo / porque não é uma coisa direta assim / &va [/1] escreva assim //	escreva assim	COM
+69184	69893	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	nũ é assim	COB
+69893	70203	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	tendeu	AUX
+70203	71406	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	é uma coisa que cê vai	SCA
+71406	71934	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	construindo	COB
+71934	73731	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	cê vai entendendo	SCA
+73731	75149	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	coisas que não soam tão bem	COB
+75149	76387	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	coisas que nũ soam tão &um [/1]	COB
+76387	76633	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	&a [/1]	EMP
+76633	76873	nũ é assim / tendeu / é uma coisa que cê vai / construindo / cê vai entendendo / coisas que não soam tão bem / coisas que nũ soam tão &um [/1] &a [/1] tendeu //	tendeu	COM
+77895	78167	é / então assim / cê vai +	é	AUX
+78167	79704	é / então assim / cê vai +	então assim	AUX
+79704	80088	é / então assim / cê vai +	cê vai +	EMP
+80088	82648	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	a ideia é tipo você quebrar isso em [/1]	SCA
+82648	84712	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	em	SCA
+84712	85912	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	compreensão	COB
+85912	86937	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	né	AUX
+86937	87743	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	&he	TMT
+87743	88708	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	discussão	COB
+88708	89733	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	e reprodução	COM
+89733	90527	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	basicamente	PAR
+90527	90807	a ideia é tipo você quebrar isso em [/1] em / compreensão / né / &he / discussão / e reprodução / basicamente / né //	né	AUX
+91343	92290	e aí tipo / por exemplo / o negócio do statement of purpose / a gente geralmente faz / dois drafts //	e aí tipo	AUX
+92290	92997	e aí tipo / por exemplo / o negócio do statement of purpose / a gente geralmente faz / dois drafts //	por exemplo	INT
+92997	94457	e aí tipo / por exemplo / o negócio do statement of purpose / a gente geralmente faz / dois drafts //	o negócio do statement of purpose	COB
+94457	95603	e aí tipo / por exemplo / o negócio do statement of purpose / a gente geralmente faz / dois drafts //	a gente geralmente faz	SCA
+95603	96958	e aí tipo / por exemplo / o negócio do statement of purpose / a gente geralmente faz / dois drafts //	dois drafts	COM
+96958	98600	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	e aí tipo	AUX
+98600	99310	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	aí o primeiro	TOP
+99310	100379	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	a gente [/2]	EMP
+100379	100723	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	&he	TMT
+100723	101430	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	eu faço &geral [/1]	COM
+101430	101775	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	&he	TMT
+101775	103364	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	aí acho que a Elisa faz assim também	PAR
+103364	104271	e aí tipo / aí o primeiro / a gente [/2] &he / eu faço &geral [/1] &he / aí acho que a Elisa faz assim também / duas aulas //	duas aulas	COM
+104500	105269	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	uma aula	TOP
+105269	106867	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	a gente discute	COB
+106867	108194	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	o que é um statement of purpose	PAR
+108194	108671	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	vê	PAR
+108671	109369	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	tipo	PAR
+109369	110382	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	exemplos	PAR
+110382	111370	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	pra que que é [/4]	EMP
+111370	113448	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	pra que que aquilo é usado	PAR
+113448	115859	uma aula / a gente discute / o que que é um statement of purpose / vê / tipo / exemplos / pra que que é [/4] pra que que aquilo é usado / e vê um exemplo de um texto de statement of purpose //	e vê um exemplo de um texto de statement of purpose	COM
+116340	117593	<discute a partir> daquele //	<discute a partir> daquele	COM
+117974	119138	segunda aula também //	segunda aula também	COM
+119138	119876	vê um texto / e disseca ele //	vê um texto	COB
+119876	120820	vê um texto / e disseca ele //	e disseca ele	COM
+120820	121144	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	sabe	AUX
+121144	121940	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	tipo	AUX
+121940	122922	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	vê as &par [/1]	SCA
+122922	123827	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	os parágrafos	COB
+123827	124510	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	como eles são	SCA
+124510	125198	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	estruturados	PAR
+125198	125513	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	e tal	PAR
+125513	125980	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	aí fala	INT
+125980	127823	sabe / tipo / vê as &par [/1] os parágrafos / como eles são / estruturados / e tal / aí fala / agora você vai fazer o statement of purpose //	agora você vai fazer o statement of purpose	COM
+128259	129412	faz o first draft +	faz o first draft +	COB
+129778	130180	tipo assim / cê vê primeiro a estrutura / é do [/1] do mais abrangente pro menos abrangente / sabe tipo //	tipo assim	INT
+130180	132230	tipo assim / cê vê primeiro a estrutura / é do [/1] do mais abrangente pro menos abrangente / sabe tipo //	cê vê primeiro a estrutura	COB
+132230	132837	tipo assim / cê vê primeiro a estrutura / é do [/1] do mais abrangente pro menos abrangente / sabe tipo //	é do [/1]	EMP
+132837	134624	tipo assim / cê vê primeiro a estrutura / é do [/1] do mais abrangente pro menos abrangente / sabe tipo //	do mais abrangente pro menos abrangente	COM
+134624	135167	tipo assim / cê vê primeiro a estrutura / é do [/1] do mais abrangente pro menos abrangente / sabe tipo //	sabe tipo //	AUX
+135857	137069	primeiro cês viram a estrutura / então tentem reproduzir a estrutura //	primeiro cês viram a estrutura	CMM
+137069	138608	primeiro cês viram a estrutura / então tentem reproduzir a estrutura //	então tentem reproduzir a estrutura	CMM
+139010	139630	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	agora	TOP
+139630	140668	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	cês vão me mandar	COB
+140668	141300	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	e eu vou	SCA
+141300	142049	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	olhar	SCA
+142049	143133	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	pra dentro do seu texto	COB
+143133	144211	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	pra ver	SCA
+144211	145463	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	o que que a gente melhorar	COB
+145463	146445	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	nessas frases	COB
+146445	146643	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	né	AUX
+146643	147356	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	no	EMP
+147356	148829	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	o que que tá muito informal	COB
+148829	150179	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	o que que tá muito português	COB
+150179	151170	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	e tal	APC
+151170	151697	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	e aí	AUX
+151697	152875	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	e' manda de volta	COB
+152875	153346	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	né	AUX
+153346	154881	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	e eles tentam mandar	SCA
+154881	155915	agora / cês vão me mandar / e eu vou / olhar / pra dentro do seu texto / pra ver / o que que a gente melhorar / nessas frases / né / no / o que que tá muito informal / o que que tá muito português / e tal / e aí / e' manda de volta / né / e eles tentam mandar / a final draft //	a final draft	COM
+156262	158049	seria melhor até que se tivesse mais um draft / sabe / pra +	seria melhor até que se tivesse mais um draft	SCA
+158049	158431	seria melhor até que se tivesse mais um draft / sabe / pra +	sabe	AUX
+158431	158735	seria melhor até que se tivesse mais um draft / sabe / pra +	pra + 	EMP
+159955	160548	é //	é	COM

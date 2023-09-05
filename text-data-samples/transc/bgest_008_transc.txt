@@ -1,0 +1,69 @@
+Begin Time - msec	End Time - msec	Transcription	NTB	InfoStructure	
+2078	2376	é [/1] <é complicado> / porque chega um ponto igual / eu aqui tava pra formar / né //	é [/1]	
+2376	3315	é [/1] <é complicado> / porque chega um ponto igual / eu aqui tava pra formar / né //	<é complicado>	
+3315	5270	é [/1] <é complicado> / porque chega um ponto igual / eu aqui tava pra formar / né //	porque chega um ponto igual	
+5270	6970	é [/1] <é complicado> / porque chega um ponto igual / eu aqui tava pra formar / né //	eu aqui tava pra formar	
+6970	7368	é [/1] <é complicado> / porque chega um ponto igual / eu aqui tava pra formar / né //	né	
+7786	9569	meu plano era formar esse ano //	meu plano era formar esse ano	
+10399	12619	e ás vezes a gente pega mesmo se perguntando / No' que que eu vou fazer / depois de formar //	e ás vezes a gente pega mesmo se perguntando	
+12619	13807	e ás vezes a gente pega mesmo se perguntando / No' que que eu vou fazer / depois de formar //	No' que que eu vou fazer	
+13807	14938	e ás vezes a gente pega mesmo se perguntando / No' que que eu vou fazer / depois de formar //	depois de formar	
+15590	16063	que &e [/1] meu diploma só vai vim como bacharelado //	que &e [/1]	
+16063	18481	que &e [/1] meu diploma só vai vim como bacharelado //	meu diploma só vai vim como bacharelado	
+18481	20055	eu não tenho intenção de [/1] de licenciatura //	eu não tenho intenção de [/1]	
+20055	21241	eu não tenho intenção de [/1] de licenciatura //	de licenciatura	
+22016	25145	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	tive té algumas experiências como professora	
+25145	26393	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	tanto	
+26393	27348	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	nos estágios	
+27348	27483	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	né	
+27483	28596	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	da própria faculdade	
+28596	29656	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	mas como também	
+29656	30748	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	&he	
+30748	32095	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	no [/1]	
+32095	33536	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	no Espaço Cênico também	
+33536	35220	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	que eu tive a oportunidade de dar [/1]	
+35220	36316	tive té algumas experiências como professora / tanto / nos estágios / né / da própria faculdade / mas como também / &he / no [/1] no Espaço Cênico também / que eu tive a oportunidade de dar [/1] de dar aula lá //	de dar aula lá	
+37152	39111	mas eu não me identifiquei / eu falei não / não é esse caminho que eu quero //	mas eu não me identifiquei	
+39111	39427	mas eu não me identifiquei / eu falei não / não é esse caminho que eu quero //	eu falei não	
+39427	41138	mas eu não me identifiquei / eu falei não / não é esse caminho que eu quero //	não é esse caminho que eu quero	
+41551	47132	posso talvez eventualmente no futuro abrir uma escola de teatro e aí eu [/1] eu queira trabalhar com pessoas interessadas em teatro //	posso talvez eventualmente no futuro abrir uma escola de teatro e aí eu [/1]	
+47132	50463	posso talvez eventualmente no futuro abrir uma escola de teatro e aí eu [/1] eu queira trabalhar com pessoas interessadas em teatro //	eu queira trabalhar com pessoas interessadas em teatro	
+52785	53868	exatamente //	exatamente	
+53868	54217	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	né	
+54217	56382	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	trabalhar com pessoas que queiram ter	
+56382	58608	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	dar aulas para pessoas que querem	
+58608	59232	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	né	
+59232	59924	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	&he	
+59924	61006	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	querem viver	
+61006	63269	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	de teatro ou querem estar no meio	
+63269	63803	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	enfim	
+63803	65422	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	qual o rumo delas vai tomar	
+65422	66840	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	isso já não é	
+66840	67735	né / trabalhar com pessoas que queiram ter / dar aulas para pessoas que querem / né / &he / querem viver / de teatro ou querem estar no meio / enfim / qual o rumo delas vai tomar / isso já não é / problema meu //	problema meu	
+68300	69723	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	mas eu [/2]	
+69723	74144	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	é diferente do que você ter que seguir um plano pedagógico	
+74144	80749	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	do que você ter que ir num lugar onde os pais forçam seus filhos a estarem	
+80749	81757	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	porque	
+81757	85973	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	a nova onda agora são crianças serem blogueiras	
+85973	87710	mas eu [/2] é diferente do que você ter que seguir um plano pedagógico / do que você ter que ir num lugar onde os pais forçam seus filhos a estarem / porque / a nova onda agora são crianças serem blogueiras / são crianças sendo sabe //	são crianças sendo sabe	
+89961	90502	muita +	muita +	
+90502	91003	Nossa / já passei por cada perrengue naquele lugar //	Nossa	
+91003	93879	Nossa / já passei por cada perrengue naquele lugar //	já passei por cada perrengue naquele lugar	
+94470	94866	Camila / tinha [/1] tinha criança que cê via nitidamente que não queria tá lá //	Camila	
+94866	96084	Camila / tinha [/1] tinha criança que cê via nitidamente que não queria tá lá //	tinha [/1]	
+96084	99169	Camila / tinha [/1] tinha criança que cê via nitidamente que não queria tá lá //	tinha criança que cê via nitidamente que não queria tá lá	
+101045	103554	cê via nitidamente que a criança não queria tá //	cê via nitidamente que a criança não queria tá	
+103850	105095	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	não porque &quer [/1]	
+105095	106208	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	a aula de teatro	
+106208	106704	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	sabe	
+106704	110952	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	mas é porque	
+110952	112065	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	não quer	
+112065	112478	não porque &quer [/1] a aula de teatro / sabe / mas é porque / não quer / sabe //	sabe	
+112478	115595	porque sabe que a intenção dela estar lá não é [/2] não é real / sabe //	porque sabe que a intenção dela estar lá não é [/2]	
+115595	116602	porque sabe que a intenção dela estar lá não é [/2] não é real / sabe //	não é real	
+116602	117602	porque sabe que a intenção dela estar lá não é [/2] não é real / sabe //	sabe	
+117602	119981	é pra suprir desejos / &he / reprimido dos pais que não tiveram / sabe //	é pra suprir desejos	
+119981	120319	é pra suprir desejos / &he / reprimido dos pais que não tiveram / sabe //	&he	
+120319	123379	é pra suprir desejos / &he / reprimido dos pais que não tiveram / sabe //	reprimido dos pais que não tiveram	
+123379	123972	é pra suprir desejos / &he / reprimido dos pais que não tiveram / sabe //	sabe	
+123972	124672	então assim //	então assim	

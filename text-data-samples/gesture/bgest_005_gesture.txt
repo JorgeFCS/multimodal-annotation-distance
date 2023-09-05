@@ -1,0 +1,115 @@
+Begin Time - msec	End Time - msec	GE-Units	GE-Phrase	GE-Phase	right - GE-Position	right - GE-Hand-shape	right - GE-Orientation	right - GE-Movement	left - GE-Position	left - GE-Hand-shape	left - GE-Orientation	left - GE-Movement	
+258	786	101	201	preparation								
+786	1695	101	201	stroke	extreme-periphery	flat-hand	away body	straight	extreme-periphery	flat-hand	away body	straight
+1695	2557	101	202	preparation								
+2557	4292	101	202	stroke	extreme-periphery	fist	towards body	straight				
+4292	5261	101	202	retraction								
+5261	6655	101	203	preparation								
+6655	7722	101	203	stroke	extreme-periphery	combination of fingers	towards center	arced	extreme-periphery	single-fingers	away center	straight
+7722	8664	101	203	retraction								
+8664	9704	101	204	preparation								
+9704	10705	101	204	stroke	extreme-periphery	flat-hand	away center	circle	extreme-periphery	flat-hand	away center	circle
+10705	11402	101	204	retraction								
+14806	15773	102	205	preparation								
+15773	16407	102	205	stroke	extreme-periphery	flat-hand	away body	straight	extreme-periphery	flat-hand	away body	straight
+16407	22678	102	205	hold								
+22678	23045	102	206	preparation								
+23045	23578	102	206	stroke	extreme-periphery	flat-hand	away body	straight	extreme-periphery	flat-hand	away body	straight
+23578	24234	102	206	retraction								
+24234	24500	102	207	preparation								
+24500	25034	102	207	stroke	extreme-periphery	flat-hand	away body	straight	extreme-periphery	flat-hand	away body	straight
+25034	26587	102	207	hold								
+26587	27221	102	208	preparation								
+27221	28154	102	208	stroke	extreme-periphery	single-fingers	away center	straight				
+28154	29024	102	208	retraction								
+29024	29318	102	209	preparation								
+29318	30251	102	209	stroke	extreme-periphery	single-fingers	away center	circle	extreme-periphery	single-fingers	away center	circle
+30251	30453	102	209	retraction								
+30453	30987	102	210	stroke	extreme-periphery	single-fingers	away center	straight	extreme-periphery	single-fingers	away center	straight
+30987	32756	102	210	retraction								
+33507	33792	103	211	preparation								
+33792	34358	103	211	stroke	extreme-periphery	single-fingers	away body	straight				
+34358	35358	103	211	retraction								
+35358	35995	103	212	preparation								
+35995	36728	103	212	stroke	extreme-periphery	flat-hand	away body	zigzag				
+36728	37130	103	212	retraction								
+38622	41036	104	213									
+38622	39239	104	213	preparation								
+39239	40340	104	213	stroke	extreme-periphery	single-fingers	away body	straight	extreme-periphery	combination of fingers	away body	arced
+40340	41036	104	213	retraction								
+49516	51760	105	214									
+49516	50413	105	214	preparation								
+50413	50747	105	214	stroke	extreme-periphery	combination of fingers	away center	straight	extreme-periphery	combination of fingers	away center	straight
+50747	51760	105	214	retraction								
+52378	52966	106	215	preparation								
+52966	53582	106	215	stroke					extreme-periphery	combination of fingers	away body	straight
+53582	53972	106	216	preparation								
+53972	54796	106	216	stroke	periphery	fist	towards body	circle	periphery	fist	towards body	circle
+54796	55190	106	216	retraction								
+55190	55414	106	217	preparation								
+55414	55754	106	217	stroke	periphery	fist	away center	straight	periphery	fist	away center	straight
+55754	55949	106	217	retraction								
+55949	56479	106	218	preparation								
+56479	57312	106	218	stroke	extreme-periphery	combination of fingers	towards center	arced	extreme-periphery	combination of fingers	towards center	arced
+57312	57977	106	218	retraction								
+57977	58621	106	219	preparation								
+58621	59021	106	219	stroke	periphery	combination of fingers	away center	arced	periphery	combination of fingers	away center	arced
+59021	59440	106	219	retraction								
+59440	59608	106	220	preparation								
+59608	59973	106	220	stroke	extreme-periphery	combination of fingers	away center	arced	extreme-periphery	combination of fingers	away center	arced
+59973	61305	106	221	preparation								
+61305	62453	106	221	stroke	periphery	combination of fingers	away body	s-line				
+62453	62901	106	221	retraction								
+62901	64568	106	222	preparation								
+64568	66234	106	222	stroke	periphery	flat-hand	away body	straight				
+66234	66856	106	222	retraction								
+66856	67355	106	223	preparation								
+67355	68586	106	223	stroke	periphery	flat-hand	away body	straight				
+68586	69432	106	223	retraction								
+69432	70051	106	224	stroke	periphery	flat-hand	away body	arced				
+70051	70574	106	224	retraction								
+70574	71689	106	225	preparation								
+71689	72289	106	225	stroke	periphery	flat-hand	away center	arced	periphery	combination of fingers	away center	arced
+72289	72859	106	225	retraction								
+75818	76709	107	226	preparation								
+76709	77480	107	226	stroke	periphery	flat-hand	away center	straight	periphery	flat-hand	away center	straight
+77480	78353	107	227	stroke	periphery	flat-hand	away center	straight				
+78353	78739	107	227	retraction								
+78739	79601	107	228	stroke	periphery	flat-hand	away center	straight				
+79601	80038	107	228	hold								
+80038	80371	107	229	preparation								
+80371	80702	107	229	stroke	periphery	combination of fingers	away center	arced				
+80702	81632	107	229	retraction								
+81632	82053	107	230	preparation								
+82053	82703	107	230	stroke	periphery	combination of fingers	away body	straight				
+82703	82920	107	230	retraction								
+82920	84210	107	231	preparation								
+84210	84544	107	231	stroke	periphery	combination of fingers	away body	arced				
+84544	85300	107	232	stroke	periphery	combination of fingers	towards body	arced				
+85300	85900	107	233	preparation								
+85900	86352	107	233	stroke					periphery	combination of fingers	away body	straight
+86352	86779	107	234	preparation								
+86779	87587	107	234	stroke	center	combination of fingers	away body	zigzag	periphery	combination of fingers	away body	zigzag
+87587	88111	107	235	preparation								
+88111	88480	107	235	stroke					center	combination of fingers	away body	straight
+88480	88868	107	235	retraction								
+91524	92027	108	236	preparation								
+92027	92778	108	236	stroke	periphery	combination of fingers	away center	arced	periphery	combination of fingers	away center	arced
+92778	93287	108	236	retraction								
+93287	94521	108	237	preparation								
+94521	95832	108	237	stroke					periphery	combination of fingers	towards body	arced
+95832	97522	108	237	retraction								
+97522	98230	108	238	stroke	periphery	combination of fingers	away center	arced	periphery	combination of fingers	away center	arced
+98230	99461	108	238	retraction								
+99461	100037	108	239	preparation								
+100037	101131	108	239	stroke	periphery	combination of fingers	away center	arced				
+101131	102171	108	239	retraction								
+102171	102490	108	240	preparation								
+102490	102813	108	240	stroke	periphery	combination of fingers	away center	arced				
+102813	104002	108	240	retraction								
+111522	112566	109	241	preparation								
+112566	113292	109	241	stroke					periphery	combination of fingers	away body	straight
+113292	113521	109	241	retraction								
+113521	113978	109	242	preparation								
+113978	114582	109	242	stroke	periphery	combination of fingers	away body	s-line	periphery	combination of fingers	away body	s-line
+114582	115411	109	242	retraction								
