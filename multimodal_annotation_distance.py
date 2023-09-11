@@ -4,6 +4,8 @@ Based on the R code originally proposed by Camila Barros and
 
 """
 
+from os import listdir
+from os.path import isfile, join, isdir
 from typing import List
 
 import pandas as pd
@@ -18,11 +20,32 @@ __status__ = "Development"
 
 
 def main():
-    file_paths = ["./ELAN-data/bgest_001.eaf"]
     search_value = "stroke"
     ref_tier = "GE-Phase"
     comparison_tiers = ["GE-Phrase", "NTB"]
+    dir_path = "./ELAN-data"
+    file_paths = get_file_paths(dir_path)
+    #file_paths = ["./ELAN-data/bgest_001.eaf", "./ELAN-data/bgest_002.eaf"]
     get_overlaps(file_paths, ref_tier, search_value, comparison_tiers)
+
+
+def get_file_paths(dir_path: str) -> List[str]:
+    """
+    Gets the paths for all EAF files in a given directory.
+
+    :param dir_path: Path of the directory in which to search.
+    :type dir_path: str
+
+    :return: List of paths for the found EAF files.
+    :rtype: List[string]
+    """
+    # Validating that the directory exists.
+    assert isdir(dir_path), "The specified directory does not exist!"
+
+    file_list = [join(dir_path, file) for file in listdir(dir_path) if isfile(join(dir_path, file)) and '.eaf' in file]
+    
+    return file_list
+
 
 
 def construct_columns(ref_tier: str,
@@ -79,7 +102,8 @@ def get_overlaps(file_paths: List[str],
     # Initializing results dataframe.
     results_df = pd.DataFrame([], columns=columns)
 
-    for file_path in tqdm(file_paths):
+    for file_path in file_paths:
+        print("Analyzing file ", file_path, "...")
         # Reading EALN file.
         eaf = pympi.Elan.Eaf(file_path)
         # Get the elements in ref_tier that match the search_value.
@@ -88,7 +112,7 @@ def get_overlaps(file_paths: List[str],
             if search_value in annotation:
                 ref_search_intervals.append(annotation)
 
-        for annotation in ref_search_intervals:
+        for annotation in tqdm(ref_search_intervals):
             row_base = [annotation[0], annotation[1], annotation[1] - annotation[0]]
             for tier in comparison_tiers:
                 potential_matches = eaf.get_annotation_data_between_times(tier,
@@ -107,7 +131,7 @@ def get_overlaps(file_paths: List[str],
                                     annotation[1] - match[1]]
                         row = row_base + row_part
                         results_df.loc[len(results_df.index)] = row
-
+        print("... done.")
     results_df.to_csv("./results.csv", index=False, encoding="utf-8-sig") 
 
 
