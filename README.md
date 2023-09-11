@@ -15,4 +15,4 @@ An [ELAN](https://archive.mpi.nl/tla/elan) Python extension for determining dist
 ## Usage
 1. Activate your Python virtual environment.
 2. If  you haven't done so before, you need to fill in the required values inside the provided `config.ini` file. Take care of not erasing any of them from the file!
-3. To run the program, inside the directory where the `multimodal_annotation_distance.py` file is located, type the following in the command line: `python multimodal_annotation_distance.py --config-file-path path/to/config.ini`
+3. To run the program, inside the directory where the `multimodal_annotation_distance.py` file is located, type the following in the command line: `python multimodal_annotation_distance.py --config-file-path path/to/config.ini`.
