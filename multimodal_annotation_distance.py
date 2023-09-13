@@ -59,8 +59,7 @@ def parse_settings(config: argparse.Namespace) -> dict:
 
     # If the mode is `point_comparison`, we need the start and end times.
     if settings_dict['mode'] == 'point_comparison':
-        settings_dict['start_time'] = settings['POINT_COMPARISON'].getint('START_TIME')
-        settings_dict['end_time'] = settings['POINT_COMPARISON'].getint('END_TIME')
+        settings_dict['search_time'] = settings['POINT_COMPARISON'].getint('SEARCH_TIME')
 
     return settings_dict
 
@@ -121,8 +120,7 @@ def get_point_comparison_overlaps(file_paths: List[str],
                                   ref_tier: str,
                                   search_value: str,
                                   comparison_tiers: List[str], 
-                                  start_time: int,
-                                  end_time: int,
+                                  search_time: int,
                                   buffer: int = 0) -> pd.DataFrame:
     """
     Function that searches for overlaps between a given `ref_value` in 
@@ -140,6 +138,8 @@ def get_point_comparison_overlaps(file_paths: List[str],
     :type search_value: string
     :param comparison_tiers: List of tiers to compare against `ref_tier`.
     :type comparison_tiers: List[string]
+    :param search_time: Time point in which to search. Will be extended +- the specified buffer.
+    :type search_time: integer
     :param buffer: Time buffer with which to extend the time frame start and end times.
         Deafults to 0.
     :type buffer: integer, optional
@@ -159,8 +159,8 @@ def get_point_comparison_overlaps(file_paths: List[str],
         # Reading EALN file.
         eaf = pympi.Elan.Eaf(file_path)
         for annotation in eaf.get_annotation_data_between_times(ref_tier,
-                                                                start_time - buffer,
-                                                                end_time + buffer):
+                                                                search_time - buffer,
+                                                                search_time + buffer):
             # We only add it if the reference tier contains our specific search value.
             if search_value in annotation:
                 ref_search_intervals.append(annotation)
@@ -279,8 +279,7 @@ def main(config: argparse.Namespace) -> None:
                                                    settings_dict['ref_tier'],
                                                    settings_dict['search_value'],
                                                    settings_dict['comparison_tiers'],
-                                                   settings_dict['start_time'],
-                                                   settings_dict['end_time'],
+                                                   settings_dict['search_time'],
                                                    settings_dict['buffer'])
     else:
         raise ValueError('Invalid mode.')
