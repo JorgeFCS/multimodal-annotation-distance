@@ -57,9 +57,9 @@ def parse_settings(config: argparse.Namespace) -> dict:
     settings_dict['mode'] = settings['MAIN_SETTINGS'].get('MODE')
     settings_dict['buffer'] = settings['MAIN_SETTINGS'].getint('BUFFER')
 
-    # If the mode is `point_comparison`, we need the start and end times.
-    if settings_dict['mode'] == 'point_comparison':
-        settings_dict['search_time'] = settings['POINT_COMPARISON'].getint('SEARCH_TIME')
+    # Validating that the reference tier is not part of the comparison tiers.
+    if settings_dict['ref_tier'] in settings_dict['comparison_tiers']:
+        raise ValueError('The reference tier cannot be part of the comparison tiers!')
 
     return settings_dict
 
@@ -111,22 +111,21 @@ def construct_columns(ref_tier: str,
     else:
         # Column names for the different `comparison tiers`.
         columns.extend(["Tier", "Value", "Begin_ms", "End_ms",
-                        "Duration", "Overlap_time", "Overlap_ratio"])
+                        "Duration"])
 
     return columns
 
 
-def get_point_comparison_overlaps(file_paths: List[str],
-                                  ref_tier: str,
-                                  search_value: str,
-                                  comparison_tiers: List[str], 
-                                  search_time: int,
-                                  buffer: int = 0) -> pd.DataFrame:
+def get_point_comparison_matches(file_paths: List[str],
+                                 ref_tier: str,
+                                 search_value: str,
+                                 comparison_tiers: List[str], 
+                                 buffer: int = 0) -> pd.DataFrame:
     """
-    Function that searches for overlaps between a given `ref_value` in 
-    a reference tier `ref_tier` and one or more `comparison_tiers` within a given time frame.
-    Computes additional data such as overlap ratio, overlap time, etc., and returns the results
-    in tabular format.
+    Function that searches for matches between a given `ref_value` in 
+    a reference tier `ref_tier` and one or more `comparison_tiers` within a time frame given
+    by the ending time of the found `ref_values`.
+    Returns the results in tabular format.
 
     :param file_paths: List of EAF files for analysis.
     :type file_paths: List[string]
@@ -138,8 +137,6 @@ def get_point_comparison_overlaps(file_paths: List[str],
     :type search_value: string
     :param comparison_tiers: List of tiers to compare against `ref_tier`.
     :type comparison_tiers: List[string]
-    :param search_time: Time point in which to search. Will be extended +- the specified buffer.
-    :type search_time: integer
     :param buffer: Time buffer with which to extend the time frame start and end times.
         Deafults to 0.
     :type buffer: integer, optional
@@ -151,39 +148,34 @@ def get_point_comparison_overlaps(file_paths: List[str],
     columns = construct_columns(ref_tier, search_value, 'point_comparison')
     # Initializing results dataframe.
     results_df = pd.DataFrame([], columns=columns)
-    # Initializing the list of time intervals to search.
-    ref_search_intervals = []
 
     for file_path in file_paths:
         print("Analyzing file ", file_path, "...")
         # Reading EALN file.
         eaf = pympi.Elan.Eaf(file_path)
-        for annotation in eaf.get_annotation_data_between_times(ref_tier,
-                                                                search_time - buffer,
-                                                                search_time + buffer):
-            # We only add it if the reference tier contains our specific search value.
+        # Get the elements in ref_tier that match the search_value.
+        ref_search_intervals = []
+        # We only add it if the reference tier contains our specific search value.
+        for annotation in eaf.get_annotation_data_for_tier(ref_tier):
             if search_value in annotation:
                 ref_search_intervals.append(annotation)
-        
+
         for annotation in tqdm(ref_search_intervals):
             # Constructing first part of the new entry with start time, end time and 
             # duration.
             row_base = [annotation[0], annotation[1], annotation[1] - annotation[0], buffer]
             for tier in comparison_tiers:
-                potential_matches = eaf.get_annotation_data_between_times(tier,
-                                                                          annotation[0] - buffer,
-                                                                          annotation[1] + buffer)
-                # Validate that it is not the immediate previous - next entry.
-                for match in potential_matches:
-                    if not (annotation[0] - buffer) == match[1] and not (annotation[1] + buffer) == match[0]:
-                        # Computing overlap data.
-                        duration = (match[1] + buffer) - (match[0] - buffer)
-                        overlap_time = min(annotation[1] + buffer, match[1]) - max(annotation[0] - buffer, match[0])
-                        overlap_ratio = round(overlap_time / ((annotation[1] + buffer) - (annotation[0] - buffer)), 3)
-                        row_part = [tier, match[2], match[0], match[1],
-                                    duration, overlap_time, overlap_ratio]
-                        row = row_base + row_part
-                        results_df.loc[len(results_df.index)] = row
+                # Finding matches taking as reference only the ending time of the found
+                # reference annotations.
+                matches = eaf.get_annotation_data_between_times(tier,
+                                                                annotation[1] - buffer,
+                                                                annotation[1] + buffer)
+                for match in matches:
+                    # Saving results.
+                    duration = (match[1] + buffer) - (match[0] - buffer)
+                    row_part = [tier, match[2], match[0], match[1], duration]
+                    row = row_base + row_part
+                    results_df.loc[len(results_df.index)] = row
         print("... done.")
 
     return results_df 
@@ -275,12 +267,11 @@ def main(config: argparse.Namespace) -> None:
                                        settings_dict['comparison_tiers'],
                                        settings_dict['buffer'])
     elif settings_dict['mode'] == "point_comparison":
-        results_df = get_point_comparison_overlaps(file_paths,
-                                                   settings_dict['ref_tier'],
-                                                   settings_dict['search_value'],
-                                                   settings_dict['comparison_tiers'],
-                                                   settings_dict['search_time'],
-                                                   settings_dict['buffer'])
+        results_df = get_point_comparison_matches(file_paths,
+                                                  settings_dict['ref_tier'],
+                                                  settings_dict['search_value'],
+                                                  settings_dict['comparison_tiers'],
+                                                  settings_dict['buffer'])
     else:
         raise ValueError('Invalid mode.')
     # Saving CSV file.
