@@ -116,6 +116,63 @@ def construct_columns(ref_tier: str,
     return columns
 
 
+def get_sym_tier_parent(eaf_file: pympi.Elan.Eaf,
+                        ref_tier: str) -> str:
+    """
+    Function that obtains the ID of the first parent of a symbolic tier that is
+    not a symbolic tier itsef.
+
+    :param eaf_file: the Eaf object that contains the file information.
+    :type eaf_file: pympi.Elan.Eaf
+    :param ref_tier: reference tear to check.
+    :type ref_tier: string
+
+    :return: A string representing the name of the found parent tier.
+    :rtype: string
+    """
+    if eaf_file.tiers[ref_tier][1]:
+        parent_tier = eaf_file.tiers[ref_tier][2]['PARENT_REF']
+        return get_sym_tier_parent(eaf_file, parent_tier)
+    else:
+        return ref_tier
+
+
+def get_annotation_data_for_sym_tier(eaf_file: pympi.Elan.Eaf,
+                                     ref_tier: str,
+                                     search_value: str) -> List:
+    """
+    Function that obtains the annotation data for a symbolic tier that matches a given
+    search value.
+
+    :param eaf_file: the Eaf object that contains the file information.
+    :type eaf_file: pympi.Elan.Eaf
+    :param ref_tier: reference tear to check.
+    :type ref_tier: string
+    :param search_value: the value within the tier that we want to find.
+    :type search_value: string
+
+    :return: The list containing the found matches.
+    :rtype: List
+    """
+    # Obtain the name of the first parent that is not a symbolic one.
+    parent_tier_name = get_sym_tier_parent(eaf_file,
+                                           ref_tier)
+    # Getting the time intervals for the parent's data.
+    ref_search_intervals = []
+    # We only add it if the reference tier contains our specific search value.
+    for annotation in eaf_file.get_annotation_data_for_tier(parent_tier_name):
+        # Taking the start and end times of the parent tier to search for the
+        # symbolic reference tier.
+        for match in eaf_file.get_annotation_data_between_times(ref_tier,
+                                                                annotation[0],
+                                                                annotation[1]):
+            # We only add it if the reference tier contains our specific search value.
+            if search_value in match:
+                ref_search_intervals.append(match)
+
+    return ref_search_intervals
+
+
 def get_point_comparison_matches(file_paths: List[str],
                                  ref_tier: str,
                                  search_value: str,
@@ -153,12 +210,17 @@ def get_point_comparison_matches(file_paths: List[str],
         print("Analyzing file ", file_path, "...")
         # Reading EALN file.
         eaf = pympi.Elan.Eaf(file_path)
+
         # Get the elements in ref_tier that match the search_value.
-        ref_search_intervals = []
-        # We only add it if the reference tier contains our specific search value.
-        for annotation in eaf.get_annotation_data_for_tier(ref_tier):
-            if search_value in annotation:
-                ref_search_intervals.append(annotation)
+        if eaf.tiers[ref_tier][1]:
+            # In case of a symbolic reference tier.
+            ref_search_intervals = get_annotation_data_for_sym_tier(eaf, ref_tier, search_value)
+        else:
+            ref_search_intervals = []
+            for annotation in eaf.get_annotation_data_for_tier(ref_tier):
+                # We only add it if the reference tier contains our specific search value.
+                if search_value in annotation:
+                    ref_search_intervals.append(annotation)
 
         for annotation in tqdm(ref_search_intervals):
             # Constructing first part of the new entry with start time, end time and 
@@ -172,10 +234,12 @@ def get_point_comparison_matches(file_paths: List[str],
                                                                 annotation[1] + buffer)
                 for match in matches:
                     # Saving results.
-                    duration = (match[1] + buffer) - (match[0] - buffer)
-                    row_part = [tier, match[2], match[0], match[1], duration]
-                    row = row_base + row_part
-                    results_df.loc[len(results_df.index)] = row
+                    overlap_time = min(annotation[1] + buffer, match[1]) - max(annotation[0] - buffer, match[0])
+                    if overlap_time > 0:
+                        duration = (match[1] + buffer) - (match[0] - buffer)
+                        row_part = [tier, match[2], match[0], match[1], duration]
+                        row = row_base + row_part
+                        results_df.loc[len(results_df.index)] = row
         print("... done.")
 
     return results_df 
@@ -218,11 +282,15 @@ def get_span_overlaps(file_paths: List[str],
         # Reading EALN file.
         eaf = pympi.Elan.Eaf(file_path)
         # Get the elements in ref_tier that match the search_value.
-        ref_search_intervals = []
-        # We only add it if the reference tier contains our specific search value.
-        for annotation in eaf.get_annotation_data_for_tier(ref_tier):
-            if search_value in annotation:
-                ref_search_intervals.append(annotation)
+        if eaf.tiers[ref_tier][1]:
+            # In case of a symbolic reference tier.
+            ref_search_intervals = get_annotation_data_for_sym_tier(eaf, ref_tier, search_value)
+        else:
+            ref_search_intervals = []
+            for annotation in eaf.get_annotation_data_for_tier(ref_tier):
+                # We only add it if the reference tier contains our specific search value.
+                if search_value in annotation:
+                    ref_search_intervals.append(annotation)
 
         for annotation in tqdm(ref_search_intervals):
             # Constructing first part of the new entry with start time, end time and 
@@ -236,16 +304,17 @@ def get_span_overlaps(file_paths: List[str],
                 for match in potential_matches:
                      if not (annotation[0] - buffer) == match[1] and not (annotation[1] + buffer) == match[0]:
                         # Computing overlap data.
-                        duration = (match[1] + buffer) - (match[0] - buffer)
                         overlap_time = min(annotation[1] + buffer, match[1]) - max(annotation[0] - buffer, match[0])
-                        overlap_ratio = round(overlap_time / ((annotation[1] + buffer) - (annotation[0] - buffer)), 3)
-                        start_diff = (annotation[0] - buffer) - match[0]
-                        end_diff = (annotation[1] + buffer) - match[1]
-                        row_part = [tier, match[2], match[0], match[1],
-                                    duration, overlap_time, overlap_ratio,
-                                    start_diff, end_diff]
-                        row = row_base + row_part
-                        results_df.loc[len(results_df.index)] = row
+                        if overlap_time > 0:
+                            duration = (match[1] + buffer) - (match[0] - buffer)
+                            overlap_ratio = round(overlap_time / ((annotation[1] + buffer) - (annotation[0] - buffer)), 3)
+                            start_diff = (annotation[0] - buffer) - match[0]
+                            end_diff = (annotation[1] + buffer) - match[1]
+                            row_part = [tier, match[2], match[0], match[1],
+                                        duration, overlap_time, overlap_ratio,
+                                        start_diff, end_diff]
+                            row = row_base + row_part
+                            results_df.loc[len(results_df.index)] = row
         print("... done.")
 
     return results_df
