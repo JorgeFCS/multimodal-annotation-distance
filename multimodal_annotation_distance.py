@@ -219,7 +219,7 @@ def get_point_comparison_matches(file_paths: List[str],
             ref_search_intervals = []
             for annotation in eaf.get_annotation_data_for_tier(ref_tier):
                 # We only add it if the reference tier contains our specific search value.
-                if search_value in annotation:
+                if search_value in annotation[2]:
                     ref_search_intervals.append(annotation)
 
         for annotation in tqdm(ref_search_intervals):
@@ -289,7 +289,7 @@ def get_span_overlaps(file_paths: List[str],
             ref_search_intervals = []
             for annotation in eaf.get_annotation_data_for_tier(ref_tier):
                 # We only add it if the reference tier contains our specific search value.
-                if search_value in annotation:
+                if search_value in annotation[2]:
                     ref_search_intervals.append(annotation)
 
         for annotation in tqdm(ref_search_intervals):
