@@ -167,7 +167,7 @@ def get_annotation_data_for_sym_tier(eaf_file: pympi.Elan.Eaf,
                                                                 annotation[0],
                                                                 annotation[1]):
             # We only add it if the reference tier contains our specific search value.
-            if search_value in match:
+            if search_value in match[2]:
                 ref_search_intervals.append(match)
 
     return ref_search_intervals
