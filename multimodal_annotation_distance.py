@@ -20,7 +20,7 @@ Mode = Literal['span', 'point_comparison']
 
 __author__ = "Jorge Ciprian Sanchez"
 __credits__ = ["Camila Antonio Barros", "Saulo Mendes Santos"]
-__license__ = ""  # TBD
+__license__ = "MIT"
 __version__ = "0.1.0"
 __status__ = "Development"
 
