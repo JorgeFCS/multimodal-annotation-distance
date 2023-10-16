@@ -218,7 +218,7 @@ def get_point_comparison_matches(file_paths: List[str],
         for annotation in tqdm(ref_search_intervals):
             # Constructing first part of the new entry with start time, end time and 
             # duration.
-            row_base = [annotation[0], annotation[1], annotation[1] - annotation[0], buffer]
+            row_base = [annotation[0], annotation[1], (annotation[1] + buffer) - (annotation[0] - buffer), buffer]
             for tier in comparison_tiers:
                 # Finding matches taking as reference only the ending time of the found
                 # reference annotations.
@@ -229,7 +229,7 @@ def get_point_comparison_matches(file_paths: List[str],
                     # Saving results.
                     overlap_time = min(annotation[1] + buffer, match[1]) - max(annotation[0] - buffer, match[0])
                     if overlap_time > 0:
-                        duration = (match[1] + buffer) - (match[0] - buffer)
+                        duration = match[1] - match[0]
                         row_part = [tier, match[2], match[0], match[1], duration]
                         row = row_base + row_part
                         results_df.loc[len(results_df.index)] = row
@@ -288,7 +288,7 @@ def get_span_overlaps(file_paths: List[str],
         for annotation in tqdm(ref_search_intervals):
             # Constructing first part of the new entry with start time, end time and 
             # duration.
-            row_base = [annotation[0], annotation[1], annotation[1] - annotation[0], buffer]
+            row_base = [annotation[0], annotation[1], (annotation[1] + buffer) - (annotation[0] - buffer), buffer]
             for tier in comparison_tiers:
                 potential_matches = eaf.get_annotation_data_between_times(tier,
                                                                           annotation[0] - buffer,
