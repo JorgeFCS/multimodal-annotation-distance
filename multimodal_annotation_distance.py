@@ -299,7 +299,7 @@ def get_span_overlaps(file_paths: List[str],
                         # Computing overlap data.
                         overlap_time = min(annotation[1] + buffer, match[1]) - max(annotation[0] - buffer, match[0])
                         if overlap_time > 0:
-                            duration = (match[1] + buffer) - (match[0] - buffer)
+                            duration = match[1] - match[0]
                             overlap_ratio = round(overlap_time / ((annotation[1] + buffer) - (annotation[0] - buffer)), 3)
                             start_diff = (annotation[0] - buffer) - match[0]
                             end_diff = (annotation[1] + buffer) - match[1]
